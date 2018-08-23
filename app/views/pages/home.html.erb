@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+  <head>  
+  <title>Webpage</title>
+  <meta charset="utf-8">
+    <title>Basic infos</title>
+      <link rel="stylesheet" type="/style/css" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+<body>
+
+
+  <div class="container vertical-divider">
+  
+    <h1>Welcome to my webpage!</h1>
+      <div>
+        <%= image_tag 'malakas.jpg' %>
+      </div>
+    </div>
+    
+    <hr>
+    <br>
+    <div class="row">
+        <div class="column col-6 left">
+          <ul>
+            Here are 3 things I enjoy
+              <li> Coding  </li>
+              <li> Playing poker </li>
+              <li> Fitness </li>
+          </ul>
+    
+        </div>
+     
+        <div class="col-6 right">
+          <ul>
+            The countries I have lived in
+              <ol>Luxembourg</ol>
+              <ol>Germany</ol>
+              <ol>United States</ol>
+              <ol>Ukraine</ol>
+              <ol>Czech Republic</ol>
+          </ul>
+        </div>
+      
+    </div>
+        
+          <%= link_to "About me", about_path %>
+
+</body>
+</html>
+
+
+
+
+
+
+<!-- end of file -->
